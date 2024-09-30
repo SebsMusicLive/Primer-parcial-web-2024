@@ -85,4 +85,12 @@ mostrarProductos = () => {
             .catch(err=>console.log(err))
 }
 
+mostrarProductosEspecíficos = () => {
+    const result = document.getElementsByName('productos');
+    if(result[0].checked){
+        console.log('electronics');
+    }
+}
+
+
 mostrarProductos();
